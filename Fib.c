@@ -3,6 +3,7 @@ void main()
 {
     int i,n,f1=-1,f2=1,f3;
     n=6;
+    printf ("Fibanoci series");
     for(i=1;i<=n;i++)
     {
         f3= f1+f2;
