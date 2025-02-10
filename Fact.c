@@ -3,6 +3,7 @@ void main()
 {
     int i,n,fact=1;
     n=5;
+    printf("\n FACTORIAL");
     for(i=1;i<=n;i++)
     {
         fact = fact*i;
