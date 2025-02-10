@@ -7,5 +7,9 @@ void main()
     {
         fact = fact*i;
     }
-    printf("\n %d Fact  = %d",n,fact);
+    for(i=1;i<=n;i++)
+    {
+        printf(" %d * ",i);
+    }
+    printf("\b\b = %d ",fact);
 }
